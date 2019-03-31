@@ -1,0 +1,91 @@
+.container{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container *{
+	box-sizing: border-box;
+	outline: none;
+}
+
+.done{
+	text-decoration: line-through;
+}
+
+.add-todo{
+	width: 100%;
+	margin-bottom: 20px
+}
+
+.add-todo input{
+	height: 40px;
+	width: 420px;
+	border: 3px solid grey;
+	border-radius: 5px 0 0 5px ;
+	padding: 0 10px;
+	line-height: 28px;
+	outline: none;
+}
+
+.add-todo button{
+	height: 40px;
+	width: 80px;
+	border: 3px solid grey;
+	border-left: none;
+	background-color: #313131;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	outline: none;
+	cursor: pointer;
+}
+
+.todo{
+	width: 500px;
+	border-radius: 4px;
+	height: 40px;
+	background-color: #313131;
+	color: white;
+	margin-bottom: 6px;
+}
+
+.todo>button,
+.todo>span{
+	height: 99%;
+	padding: 0;
+	background-color: white;
+	border: none;
+}
+
+#text{
+	height: 38px;
+	width: 416px;
+	line-height: 100%;
+	float: left;
+	line-height: 38px;
+	text-align: left;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+#delete{
+	float: right;
+	padding: 0 20px;
+	border-radius: 0 5px 5px 0;
+	width: 82px;
+	background-color: #313131;
+	color: white;
+	border-left: 1px solid white;
+	cursor: pointer;
+}
+
+.error-message{
+	width: 100%;
+	background-color: rgb(255, 94, 94);
+	height: 40px;
+	color: white;
+	line-height: 32px;
+	margin-bottom: 20px;
+	border: 3px solid rgb(255, 34, 34);
+	border-radius: 5px;
+}
